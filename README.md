@@ -8,13 +8,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#plots">Plots</a>
-      <ul>
-        <li><a href="#plot3">Pull Requests by specific user vs Date</a></li>
-        <li><a href="#plot4">Pull Requests by specific user on a specific file vs Date</a></li>
-      </ul>
-    </li>
+    <li><a href="#plots">Plots</a></li>
  </details>
  
 ## About The Project
