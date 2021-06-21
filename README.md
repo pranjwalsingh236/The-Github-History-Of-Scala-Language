@@ -35,6 +35,12 @@ The dataset includes the project history of [Scala](http://www.scala-lang.org) r
 The following are the plots generated to answer the following questions:
 * Is the project still actively maintained?
   - To answer this will calculate the number of pull requests submitted each (calendar) month during the project's lifetime and plot the result
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile
-  
+* How big is the contributing community?
+  - Distribution that shows that there are few people that only contribute a small number of pull requests can be used as in indicator that the project is not welcoming of new contributors.
+* Who made the most recent pull request?
+  - For each calendar year, we were interested in understanding the number of pull requests the authors submitted. That gave us a high-level image of their contribution trend to the project.
+* Who was more actively contributing to a specific file in the recent times?
+  - We measured experience by the number of pull requests submitted that affect that file and how recent those pull requests were submitted.
+### Date vs Pull Requests
+
+[![Plot1][Scala-DateVSPullRequests]](plots/)
