@@ -11,8 +11,6 @@
     <li>
       <a href="#plots">Plots</a>
       <ul>
-        <li><a href="Date vs Pull Requests">Date vs Pull Requests</a></li>
-        <li><a href="#plot2">Histogram of the number of pull requests submitted by each user</a></li>
         <li><a href="#plot3">Pull Requests by specific user vs Date</a></li>
         <li><a href="#plot4">Pull Requests by specific user on a specific file vs Date</a></li>
       </ul>
@@ -35,12 +33,21 @@ The dataset includes the project history of [Scala](http://www.scala-lang.org) r
 The following are the plots generated to answer the following questions:
 * Is the project still actively maintained?
   - To answer this will calculate the number of pull requests submitted each (calendar) month during the project's lifetime and plot the result
-* How big is the contributing community?
-  - Distribution that shows that there are few people that only contribute a small number of pull requests can be used as in indicator that the project is not welcoming of new contributors.
-* Who made the most recent pull request?
-  - For each calendar year, we were interested in understanding the number of pull requests the authors submitted. That gave us a high-level image of their contribution trend to the project.
-* Who was more actively contributing to a specific file in the recent times?
-  - We measured experience by the number of pull requests submitted that affect that file and how recent those pull requests were submitted.
-  ### Date vs Pull Requests
+  - ### Date vs Pull Requests
 
 ![plot1](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-DateVSPullRequests.PNG)
+* How big is the contributing community?
+  - Distribution that shows that there are few people that only contribute a small number of pull requests can be used as in indicator that the project is not welcoming of new contributors.
+  - ### Histogram of the number of pull requests submitted by each user
+  
+![plot2](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-HistogramOfPullRequests.PNG)
+* Who made the most recent pull request?
+  - For each calendar year, we were interested in understanding the number of pull requests the authors submitted. That gave us a high-level image of their contribution trend to the project.
+  - ### Pull Requests by specific users vs Date
+  
+![plot3](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-PlotOfTwoDevelopers.PNG)
+* Who was more actively contributing to a specific file in the recent times?
+  - We measured experience by the number of pull requests submitted that affect that file and how recent those pull requests were submitted.
+  - ### Pull Requests by specific user on a specific file vs Date
+ 
+![plot4](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-PullRequestOnSpecificFile.PNG)
