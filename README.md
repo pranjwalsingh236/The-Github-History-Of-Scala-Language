@@ -11,7 +11,7 @@
     <li>
       <a href="#plots">Plots</a>
       <ul>
-        <li><a href="#plot1">Date vs Pull Requests</a></li>
+        <li><a href="Date vs Pull Requests">Date vs Pull Requests</a></li>
         <li><a href="#plot2">Histogram of the number of pull requests submitted by each user</a></li>
         <li><a href="#plot3">Pull Requests by specific user vs Date</a></li>
         <li><a href="#plot4">Pull Requests by specific user on a specific file vs Date</a></li>
@@ -41,6 +41,6 @@ The following are the plots generated to answer the following questions:
   - For each calendar year, we were interested in understanding the number of pull requests the authors submitted. That gave us a high-level image of their contribution trend to the project.
 * Who was more actively contributing to a specific file in the recent times?
   - We measured experience by the number of pull requests submitted that affect that file and how recent those pull requests were submitted.
-### Date vs Pull Requests
+  ### Date vs Pull Requests
 
-[![Plot1][Scala-DateVSPullRequests]](plots/)
+![plot1](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-DateVSPullRequests.PNG)
