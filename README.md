@@ -31,7 +31,7 @@ The following are the plots generated to answer the following questions:
 
 ![plot1](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-DateVSPullRequests.PNG)
 * How big is the contributing community?
-  - Distribution that shows that there are few people that only contribute a small number of pull requests can be used as in indicator that the project is not welcoming of new contributors.
+  - Distribution that shows that there are few people that only contribute a small number of pull requests can be used as in indicator that the project is welcoming of new contributors.
   - ### Histogram of the number of pull requests submitted by each user
   
 ![plot2](https://github.com/pranjwalsingh236/The-Github-History-Of-Scala-Language/blob/main/plots/Scala-HistogramOfPullRequests.PNG)
